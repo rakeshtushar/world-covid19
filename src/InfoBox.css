@@ -1,0 +1,15 @@
+.cardInfo{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cardInfo:nth-of-type(even){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cardInfo:hover {
+    box-shadow: 0 0 10px 100px #B0E0E6 inset;
+}
